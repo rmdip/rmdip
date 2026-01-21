@@ -20,7 +20,7 @@
 
 <div align="center">
 <a href="https://git.io/typing-svg">
-<img src="[https://readme-typing-svg.herokuapp.com?font=Outfit&weight=500&size=24&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=Coding+the+intersection+of+Human+Health+and+Artificial+Intelligence.;Exploring+Renaissance+Art,+Philosophy,+and+Modern+Science.;Dreaming+of+traveling+the+world,+one+algorithm+at+a+time."](https://readme-typing-svg.herokuapp.com/?font=Outfit&weight=500&size=24&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=Coding+the+intersection+of+Human+Health+and+Artificial+Intelligence.;Exploring+Renaissance+Art,+Philosophy,+and+Modern+Science.;Dreaming+of+traveling+the+world,+one+algorithm+at+a+time.%22) alt="Typing SVG" />
+font=Outfit&weight=500&size=24&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=Coding+the+intersection+of+Human+Health+and+Artificial+Intelligence.;Exploring+Renaissance+Art,+Philosophy,+and+Modern+Science.;Dreaming+of+traveling+the+world,+one+algorithm+at+a+time."](https://readme-typing-svg.herokuapp.com/?font=Outfit&weight=500&size=24&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=Coding+the+intersection+of+Human+Health+and+Artificial+Intelligence.;Exploring+Renaissance+Art,+Philosophy,+and+Modern+Science.;Dreaming+of+traveling+the+world,+one+algorithm+at+a+time.%22) alt="Typing SVG" />
 </a>
 </div>
 
