@@ -1,90 +1,189 @@
 ## Hi there 👋
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00c6ff,0072ff,7000ff&height=220&section=header&text=Rayan%20Mustafa%20Dip&fontSize=70&fontAlignY=40&desc=Engineering%20Intelligence%20%7C%20Designing%20Experience&descAlignY=65&descSize=20&fontColor=ffffff&animation=fadeIn" width="100%" />
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayan Mustafa Dip | Portfolio</title>
+  <style>
+    /* ===== Liquid Glass Morphism Style ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
-<div align="center">
-  <a href="https://github.com/YOUR_USERNAME">
-    <img src="https://img.shields.io/badge/CSE-Undergrad-000000?style=for-the-badge&logo=academic&logoColor=cyan&color=0d1117" height="30" />
-  </a>
-  <a href="https://github.com/YOUR_USERNAME">
-    <img src="https://img.shields.io/badge/Focus-AI%20%26%20HealthTech-000000?style=for-the-badge&logo=openai&logoColor=purple&color=0d1117" height="30" />
-  </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/Design-UI%2FUX-000000?style=for-the-badge&logo=figma&logoColor=pink&color=0d1117" height="30" />
-  </a>
-</div>
+    body {
+      background: linear-gradient(135deg, #0d1117, #1a1f25);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
 
-<br />
+    .glass-container {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+      width: 90%;
+      max-width: 900px;
+      padding: 40px;
+      margin: 40px auto;
+      text-align: center;
+    }
 
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=500&size=24&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=Coding+the+intersection+of+Human+Health+and+Artificial+Intelligence.;Exploring+Renaissance+Art,+Philosophy,+and+Modern+Science.;Dreaming+of+traveling+the+world,+one+algorithm+at+a+time." alt="Typing SVG" />
-  </a>
-</div>
+    h1 {
+      font-size: 2.5rem;
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
 
-<br />
+    h2 {
+      color: #00ffff;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="300">
-      <h3>🧬 The Lab <br>(Science & Tech)</h3>
-      <p><i>"Data is the new oil, but Health is the engine."</i></p>
-      <img src="https://img.shields.io/badge/AI%2FML-Research-blue?style=flat-square&logo=tensorflow&color=0F172A" />
-      <img src="https://img.shields.io/badge/Health-Tech-green?style=flat-square&logo=medical-icon&color=0F172A" />
-      <img src="https://img.shields.io/badge/Data-Analysis-orange?style=flat-square&logo=jupyter&color=0F172A" />
-    </td>
-    <td align="center" width="300">
-      <h3>🎨 The Studio <br>(Art & Design)</h3>
-      <p><i>"Visualizing the unseen."</i></p>
-      <img src="https://img.shields.io/badge/Digital-Art-purple?style=flat-square&logo=artstation&color=0F172A" />
-      <img src="https://img.shields.io/badge/3D-Modeling-orange?style=flat-square&logo=blender&color=0F172A" />
-      <img src="https://img.shields.io/badge/UI-Design-pink?style=flat-square&logo=dribbble&color=0F172A" />
-    </td>
-    <td align="center" width="300">
-      <h3>🏛️ The Library <br>(Soul & Culture)</h3>
-      <p><i>"From Classical Bangla to the World."</i></p>
-      <img src="https://img.shields.io/badge/History-Renaissance-brown?style=flat-square&logo=wikipedia&color=0F172A" />
-      <img src="https://img.shields.io/badge/Poetry-Multilingual-red?style=flat-square&logo=bookstack&color=0F172A" />
-      <img src="https://img.shields.io/badge/Travel-Wanderlust-blue?style=flat-square&logo=google-earth&color=0F172A" />
-    </td>
-  </tr>
-</table>
-</div>
+    p {
+      color: #dcdcdc;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
 
-<br />
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
 
-<h3 align="center">⚡ Technology Stack</h3>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,tensorflow,pytorch,opencv,figma,blender,ps,ai,git,linux,vscode&theme=dark" />
-</div>
+    .badge {
+      background: rgba(0, 255, 255, 0.1);
+      border: 1px solid rgba(0, 255, 255, 0.3);
+      border-radius: 30px;
+      padding: 10px 20px;
+      color: #00ffff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
 
-<br />
+    .badge:hover {
+      background: rgba(0, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
 
-<h3 align="center">📊 GitHub Analytics</h3>
+    .section {
+      margin-top: 40px;
+      text-align: left;
+    }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" height="170" alt="languages" />
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8&include_all_commits=true" height="170" alt="stats" />
-</div>
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
 
-<br />
+    .section li {
+      margin: 8px 0;
+      color: #bfbfbf;
+    }
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=a855f7&currStreakNum=ffffff" alt="streak stats" />
-</div>
+    .stats {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
 
-<br />
+    .stats img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-  <br>
-  <code>Islamic Nasheed</code> • <code>Classical Bangla</code> • <code>Urdu/Hindi/English Poetry</code>
-  <br><br>
-  <i>"I study science to understand the world, and art to understand myself."</i>
-  <br>
-  <b>— Rayan Mustafa Dip</b>
-</div>
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #00ffff;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-container">
+    <h1>Rayan Mustafa Dip</h1>
+    <p>AI/ML & Health Tech Enthusiast | CSE Undergraduate | Research Explorer</p>
+    <p>Dreamer • Artist • Philosopher • Traveler</p>
+
+    <div class="badges">
+      <div class="badge">AI/ML</div>
+      <div class="badge">Health Tech</div>
+      <div class="badge">Research</div>
+      <div class="badge">CSE</div>
+      <div class="badge">Creativity</div>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m an undergraduate student in Computer Science and Engineering, passionate about Artificial Intelligence, Machine Learning, and Health Tech. I love exploring the intersection of technology, creativity, and human experience.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Interests & Inspirations</h2>
+      <ul>
+        <li>🎨 Arts, Painting, Digital Art, Animation, 3D Modeling</li>
+        <li>🎬 Filmmaking, Photography, Renaissance, History, Architecture</li>
+        <li>🧠 Philosophy, Psychology, Entrepreneurship, Self Development</li>
+        <li>🎶 Islamic Nasheed, Classical Bangla Songs, Poetry (Bangla, Urdu, Hindi, English)</li>
+        <li>🌍 Dream: To travel the whole world and capture its beauty</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Data & Analytics</h2>
+      <div class="stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=RayanMustafaDip&show_icons=true&theme=transparent&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&bg_color=0d1117" alt="GitHub Stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RayanMustafaDip&layout=compact&theme=transparent&title_color=00FFFF&text_color=FFFFFF&bg_color=0d1117" alt="Top Languages">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=RayanMustafaDip&bg_color=0d1117&color=00FFFF&line=00FFFF&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Connect with Me</h2>
+      <p>
+        <a href="mailto:rayanmustafadip@gmail.com">Email</a> |
+        <a href="https://linkedin.com/in/rayanmustafadip">LinkedIn</a> |
+        <a href="https://github.com/RayanMustafaDip">GitHub</a>
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Rayan Mustafa Dip — Designed in Liquid Glass Morphism Style
+  </footer>
+</body>
+</html>
