@@ -64,12 +64,6 @@
 <br />
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=a855f7&currStreakNum=ffffff" alt="streak stats" />
-</div>
-
-<br />
-
-<div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 <br>
 <code>Islamic Nasheed</code> • <code>Classical Bangla</code> • <code>Urdu/Hindi/English Poetry</code>
